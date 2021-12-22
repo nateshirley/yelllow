@@ -7,6 +7,12 @@
   display: block;
 }
 
+.thesis {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  line-height: 19px;
+}
+
 .component-parent {
   color: black;
   width: 90%;
@@ -15,6 +21,10 @@
   margin-left: auto;
   margin-bottom: 160px;
   font-size: 18px;
+}
+
+.component-parent.thesis {
+  max-width: 500px;
 }
 
 .home-body {
