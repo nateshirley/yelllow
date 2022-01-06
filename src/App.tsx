@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './assets/yellow-shop.png';
 import channels from './assets/channels.png'
-import madpacks from './assets/madpacks.png'
 import prh from './assets/prh.png'
+import friendpacks from './assets/friendpacks.png'
 import pressthebutton from './assets/pressthebutton.png'
 import './App.css';
 
@@ -47,25 +47,24 @@ function App() {
               </div>
 
 
-              <img src={madpacks} alt="channels" className="project-logo" />
-              <div className="project-header">Madpacks: Friend groups.
+              <img src={friendpacks} alt="friendpacks" className="project-logo-friend" />
+              <div className="project-header">Friendpacks
                 <br />
                 ------
               </div>
               <br />
-              Madpacks is a token standard for minting and managing tokens among friend-groups (&#8804; 7), called packs.
+              Friendpacks makes it easy to put your friend group on chain.
               <br />
               <br />
               Every pack has a token. If you hold the token, you're in the pack.
               <br />
               <br />
-              This can be used to create public alliances among wallets (e.g., FaZe Clan, rat pack, Cheetah Girls) and to push information to users based on their friends' activity.              <br />
+              This can be used to create public alliances among wallets (e.g., FaZe Clan, rat pack, Cheetah Girls) and to push information to users based on their friends' activity.
               <br />
-              Anyone can subscribe to a channel by minting its token. Channels organize an audience of wallets.
               <div className="project-links">
-                web app: <a href='https://www.madpacks.xyz/' target="_blank" rel="noreferrer noopener">madpacks.xyz</a>
+                web app: <a href='https://friendpacks.vercel.app/' target="_blank" rel="noreferrer noopener">friendpacks.xyz</a>
                 <br />
-                <div style={{ marginTop: "5px" }}><a href="https://github.com/nateshirley/madpacks" target="_blank" rel="noreferrer noopener">github.com/nateshirley/madpacks</a>
+                <div style={{ marginTop: "5px" }}><a href="https://github.com/nateshirley/friendpacks" target="_blank" rel="noreferrer noopener">github.com/nateshirley/friendpacks</a>
                 </div>
               </div>
 
@@ -82,7 +81,7 @@ function App() {
               When you press the button, it shows which of your friends (wallets you share at least one pack with) have also pressed the button and when exactly they pressed it.
               <br />
               <br />
-              PTB shows one way that dapps could use madpacks (or other social primitives) to surface relevant information for their users.<br />
+              PTB shows one way that dapps could use friendpacks (or other social primitives) to surface relevant information for their users.<br />
               <div className="project-links">
                 web app: <a href='https://www.pressthebutton.xyz/' target="_blank" rel="noreferrer noopener">pressthebutton.xyz</a>
                 <br />
