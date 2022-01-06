@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './assets/yellow-shop.png';
 import channels from './assets/channels.png'
 import madpacks from './assets/madpacks.png'
+import prh from './assets/prh.png'
 import pressthebutton from './assets/pressthebutton.png'
 import './App.css';
 
@@ -20,6 +21,14 @@ function App() {
           <div className="projects-section">
             <div className="projects-header">Projects</div>
             <div className="projects-body">
+              <img src={prh} alt="prh" className="channels-logo" />
+              <div className="project-header">ParisRadioHour: an on-chain music subreddit that sells itself every week
+                <br />
+                ------
+              </div>
+              <div>
+                <a href="https://www.parisradiohour.xyz/about" target="_blank" rel="noreferrer noopener">parisradiohour.xyz</a>
+              </div>
               <img src={channels} alt="channels" className="channels-logo" />
               <div className="project-header">Channels: Channel/subscriber relationships between wallets. An on-chain friend graph.
                 <br />
