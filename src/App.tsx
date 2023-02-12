@@ -13,7 +13,7 @@ function App() {
       <div className="component-parent">
         <div className="home-body">
           <div className="subheading">
-            Simply, putting social data on-chain.
+            Putting social data on-chain.
             <br />
             <div style={{ marginTop: "16px" }}>
               If context is everywhere, products can be anywhere.
