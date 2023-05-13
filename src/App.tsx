@@ -41,7 +41,7 @@ function App() {
               </div>
               <div>
                 <a
-                  href="https://www.parisradiohour.xyz/about"
+                  href="https://forum-nateshirley.vercel.app/about"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -151,7 +151,7 @@ function App() {
               <div className="project-links">
                 web app:{" "}
                 <a
-                  href="https://www.pressthebutton.xyz/"
+                  href="https://pushabutton-git-main-nateshirley.vercel.app/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
