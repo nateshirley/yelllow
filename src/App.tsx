@@ -20,12 +20,12 @@ function App() {
             </div>
             <div className="twitter">
               <a
-                href="https://twitter.com/_______sandwich"
+                href="https://twitter.com/yellownate"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="twitter-link"
               >
-                @_______sandwich
+                @yellownate
               </a>
             </div>
           </div>
